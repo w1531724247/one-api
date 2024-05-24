@@ -37,20 +37,7 @@ const Footer = () => {
           ></div>
         ) : (
           <div className='custom-footer'>
-            <a
-              href=''
-              target='_blank'
-            >
-              {systemName} {process.env.REACT_APP_VERSION}{' '}
-            </a>
-            由{' '}
-            <a href='' target='_blank'>
-              @
-            </a>{' '}
-            版权所有{' '}
-            <a href=''>
-              .
-            </a>
+            
           </div>
         )}
       </Container>
