@@ -128,7 +128,7 @@ func processChannelRelayError(ctx context.Context, channelId int, channelName st
 func RelayNotImplemented(c *gin.Context) {
 	err := model.Error{
 		Message: "API not implemented",
-		Type:    "one_api_error",
+		Type:    "gpt_pro_api_error",
 		Param:   "",
 		Code:    "api_not_implemented",
 	}
